@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Admin from './components/Admin';
 
 function App() {
   return (
     <div className="App">
-     <h1 className='border pt-5'>Helllo every boddy</h1>
+     <Admin></Admin>
 
     </div>
   );
